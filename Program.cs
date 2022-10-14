@@ -59,22 +59,20 @@ namespace Method
         }
         static void Main(string[] args)
         {
-            /*Console.WriteLint("Упражнение 1");
+            Console.WriteLine("Упражнение 1");
             Console.WriteLine("Введите коэффициенты уравнения: ");
             int[] arr = Console.ReadLine().Split(' ').Select(x => int.Parse(x)).ToArray();
             Uravn(arr);
             Console.WriteLine("Упражнение 2");
             int[] arra = new int[20];
-            int i;
             Random rand = new Random();
-            for (i = 0; i < arra.Length; i++)
+            for (int i = 0; i < arra.Length; i++)
             {
                 arra[i] = rand.Next(1,100);
                 Console.Write($"{arra[i]},");
             }
             Console.WriteLine();
             Sluchai(ref arra);
-            */
 
             Console.WriteLine("Упражнение 3");
             Console.WriteLine("Сколько чисел будешь сортировать?");
@@ -91,6 +89,7 @@ namespace Method
             {
                 Console.Write($"{massivniy[i]} ");
             }
+            Console.WriteLine();
         }
     }
 }
